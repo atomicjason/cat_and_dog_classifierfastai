@@ -1,8 +1,8 @@
 fastai==2.7.19
 fastcore==1.7.29
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
+torch
+torchvision
+torchaudio
 pillow
 numpy
 scipy
