@@ -1,0 +1,23 @@
+[33m34c4c83[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull origin main --allow-unrelated-histories: Fast-forward
+[33m33f720a[m HEAD@{1}: commit: fix classify_img
+[33mda602cf[m HEAD@{2}: commit: change examples variables to reflect in interface
+[33m7a5d600[m HEAD@{3}: commit: added img variable PILImage.create() object for HF pillow version
+[33mb2992cc[m HEAD@{4}: checkout: moving from main to main
+[33mb2992cc[m HEAD@{5}: commit: CPU-ready Space build
+[33m52ea1d0[m HEAD@{6}: commit: CPU-ready Space build
+[33m018247a[m HEAD@{7}: commit: CPU-ready Space build
+[33m302802e[m HEAD@{8}: commit: Cleaned requirements for CPU Space
+[33m5fba5ed[m HEAD@{9}: commit: Cleaned requirements for CPU Space
+[33mb4016e3[m HEAD@{10}: commit: Add requirements for Hugging Face Spaces
+[33m0dda828[m HEAD@{11}: commit: Switch to CPU-only Hugging Face Space
+[33m2227f39[m HEAD@{12}: commit: Add requirements for Hugging Face Spaces
+[33m5eeab49[m HEAD@{13}: commit: Add requirements for Hugging Face Spaces
+[33m92660a2[m HEAD@{14}: commit: Reinstall all of the venv and packages to old ones to make the ml work and also change app.py gradio function gr.Image() and gr.Label()
+[33mdf0a849[m HEAD@{15}: checkout: moving from main to main
+[33mdf0a849[m HEAD@{16}: checkout: moving from main to main
+[33mdf0a849[m HEAD@{17}: checkout: moving from main to main
+[33mdf0a849[m HEAD@{18}: commit: added images of cat,dog and random and code for gradio and ml
+[33m0a21cdd[m HEAD@{19}: checkout: moving from main to main
+[33m0a21cdd[m HEAD@{20}: commit: commit app.py to huggingface spaces
+[33m6b01735[m HEAD@{21}: checkout: moving from main to main
+[33m6b01735[m HEAD@{22}: clone: from https://huggingface.co/spaces/jasonthealchemist/myfirst_space
