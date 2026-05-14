@@ -23,7 +23,7 @@ intf = gr.Interface(
     fn=classify_img,
     inputs=gr.Image(type="pil"),
     outputs=gr.Label(num_top_classes=2),
-    examples=["dog.jfif", "cat.jpg"]
+    examples=examples
 )
 
 intf.launch()
