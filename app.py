@@ -13,8 +13,8 @@ def classify_img(img):
   return dict(zip(categories, map(float, probs)))
 
 
-image = gr.inputs.Image(shape =(192, 192))
-label = gr.outputs.Label()
+image = gr.Image()
+label = gr.Label()
 examples = ['dog.jfif', 'cat.jpg', 'random.jpg']
 
 intf = gr.Interface(fn=classify_img, inputs=image, outputs=label, examples=examples)
