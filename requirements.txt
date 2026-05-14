@@ -1,6 +1,8 @@
 # Core ML libraries
 fastai==2.7.19
 fastcore==1.7.29
+
+# PyTorch - let HF resolve compatible versions, or pin via index
 torch==2.5.1
 torchvision==0.20.1
 torchaudio==2.5.1
@@ -10,10 +12,30 @@ pillow
 numpy
 scipy
 
-# Web interface
-gradio==6.14.0
+# Web interface - remove pin, let Space handle gradio version
+# gradio==6.14.0  <-- REMOVE THIS
 
-# Optional, only if your app uses plotting, dataframes, or progress bars
+# Optional
+matplotlib
+pandas
+tqdm# Core ML libraries
+fastai==2.7.19
+fastcore==1.7.29
+
+# PyTorch - let HF resolve compatible versions, or pin via index
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# For image handling and numeric operations
+pillow
+numpy
+scipy
+
+# Web interface - remove pin, let Space handle gradio version
+# gradio==6.14.0  <-- REMOVE THIS
+
+# Optional
 matplotlib
 pandas
 tqdm
