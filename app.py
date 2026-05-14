@@ -9,6 +9,7 @@ learn = load_learner('model.pkl')
 categories = ('Dog', 'Cat')
 
 def classify_img(img):
+    img = PILImage.create(img)
     pred, idx, probs = learn.predict(img)
     return dict(zip(categories, map(float, probs)))
 
